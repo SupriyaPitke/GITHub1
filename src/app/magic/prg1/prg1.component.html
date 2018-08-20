@@ -9,8 +9,8 @@
     >
         <div style="display: flex; flex-direction: row">
             <label
-                magic="Label3"
-                class="Label3Props"
+                magic="Label9"
+                class="Label9Props"
             >
                 a:</label>
                 <mat-form-field class="aProps">
@@ -31,8 +31,8 @@ screenFormGroup.get('a').hasError('pattern')
         </div>
         <div style="display: flex; flex-direction: row">
             <label
-                magic="Label4"
-                class="Label4Props"
+                magic="Label10"
+                class="Label10Props"
             >
                 b:</label>
                 <mat-form-field class="bProps">
@@ -47,6 +47,50 @@ screenFormGroup.get('a').hasError('pattern')
 screenFormGroup.get('b').hasError('pattern')
 )">
                                 <p>{{ mg.getErrMsg('b') }}</p>
+                            </div>
+                    </div>
+                </mat-form-field>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="Label11"
+                class="Label11Props"
+            >
+                c:</label>
+                <mat-form-field class="cProps">
+                    <div>
+                        <input
+                            matInput
+                            magic="c"
+                            formControlName="c"
+                            pattern="^.{0,11}$"
+                        >
+                            <div *ngIf="(screenFormGroup.get('c').dirty) && (
+screenFormGroup.get('c').hasError('pattern')
+)">
+                                <p>{{ mg.getErrMsg('c') }}</p>
+                            </div>
+                    </div>
+                </mat-form-field>
+        </div>
+        <div style="display: flex; flex-direction: row">
+            <label
+                magic="Label12"
+                class="Label12Props"
+            >
+                d:</label>
+                <mat-form-field class="dProps">
+                    <div>
+                        <input
+                            matInput
+                            magic="d"
+                            formControlName="d"
+                            pattern="^.{0,11}$"
+                        >
+                            <div *ngIf="(screenFormGroup.get('d').dirty) && (
+screenFormGroup.get('d').hasError('pattern')
+)">
+                                <p>{{ mg.getErrMsg('d') }}</p>
                             </div>
                     </div>
                 </mat-form-field>

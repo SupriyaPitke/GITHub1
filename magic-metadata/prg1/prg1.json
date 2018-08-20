@@ -12,7 +12,7 @@
 		{
 			"style":	null,
 			"props":	{
-				"id":	"Label3",
+				"id":	"Label9",
 				"text":	"a:",
 				"common_line_id":	"line13"
 			},
@@ -53,7 +53,7 @@
 		{
 			"style":	null,
 			"props":	{
-				"id":	"Label4",
+				"id":	"Label10",
 				"text":	"b:",
 				"common_line_id":	"line46"
 			},
@@ -84,6 +84,88 @@
 			"coordinates":	{
 				"x":	23,
 				"y":	46,
+				"width":	83,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label11",
+				"text":	"c:",
+				"common_line_id":	"line79"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	79,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"c",
+				"tab_order":	0,
+				"pattern":	"^.{0,11}$",
+				"attribute":	"A",
+				"common_line_id":	"line79"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	79,
+				"width":	83,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label12",
+				"text":	"d:",
+				"common_line_id":	"line112"
+			},
+			"coordinates":	{
+				"x":	6,
+				"y":	112,
+				"width":	11,
+				"height":	15
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	{
+				"alignment":	{
+					"horizontal":	1,
+					"vertical":	null
+				}
+			},
+			"props":	{
+				"id":	"d",
+				"tab_order":	0,
+				"pattern":	"^.{0,11}$",
+				"attribute":	"A",
+				"common_line_id":	"line112"
+			},
+			"coordinates":	{
+				"x":	23,
+				"y":	112,
 				"width":	83,
 				"height":	20
 			},
